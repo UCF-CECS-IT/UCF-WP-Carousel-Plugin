@@ -27,5 +27,8 @@
   },
   "browserslist": [
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "ucf-athena-framework": "^1.1.0"
+  }
 }

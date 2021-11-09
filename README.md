@@ -1,47 +1,40 @@
-=== UCF WP Carousel Plugin ===
-Contributors: ucfwebcom
-Requires at least: 5.3 {{Update as needed!}}
-Tested up to: 5.3 {{Update as needed!}}
-Stable tag: 0.0.0
-Requires PHP: 7.4 {{Update as needed!}}
-License: GPLv3 or later
-License URI: http://www.gnu.org/copyleft/gpl-3.0.html
+# UCF WP Carousel Plugin #
 
 This plugin adds a Bootstrap-style carousel based on Athena theme variables.
 
 
-== Description ==
+## Description ##
 
 This plugin adds a Bootstrap-style carousel based on Athena theme variables.
 
 
-== Documentation ==
+## Documentation ##
 
 Head over to the [UCF WP Carousel Plugin wiki](https://github.com/UCF-CECS-IT/UCF-WP-Carousel-Plugin/wiki) for detailed information about this plugin, installation instructions, and more.
 
 
-== Changelog ==
+## Changelog ##
 
-= 1.0.0 =
+### 1.0.0 ###
 * Initial release
 
 
-== Upgrade Notice ==
+## Upgrade Notice ##
 
 n/a
 
 
-== Development ==
+## Development ##
 
 Note that compiled, minified css and js {{edit this list if the plugin doesn't include css/js!}} files are included within the repo.  Changes to these files should be tracked via git (so that users installing the plugin using traditional installation methods will have a working plugin out-of-the-box.)
 
 [Enabling debug mode](https://codex.wordpress.org/Debugging_in_WordPress) in your `wp-config.php` file is recommended during development to help catch warnings and bugs.
 
-= Requirements =
+### Requirements ###
 * node v16+
 * gulp-cli
 
-= Instructions =
+### Instructions ###
 1. Clone the UCF-WP-Carousel-Plugin repo into your local development environment, within your WordPress installation's `plugins/` directory: `git clone https://github.com/UCF-CECS-IT/UCF-WP-Carousel-Plugin.git`
 2. `cd` into the new UCF-WP-Carousel-Plugin directory, and run `npm install` to install required packages for development into `node_modules/` within the repo
 3. Optional: If you'd like to enable [BrowserSync](https://browsersync.io) for local development, or make other changes to this project's default gulp configuration, copy `gulp-config.template.json`, make any desired changes, and save as `gulp-config.json`.
@@ -55,10 +48,10 @@ Note that compiled, minified css and js {{edit this list if the plugin doesn't i
 6. Configure plugin settings from the WordPress admin under "{{Your plugin's admin menu label}}".
 7. Run `gulp watch` to continuously watch changes to scss and js files.{{edit this list if the plugin doesn't include css/js!}}  If you enabled BrowserSync in `gulp-config.json`, it will also reload your browser when plugin files change.
 
-= Other Notes =
+### Other Notes ###
 * This plugin's README.md file is automatically generated. Please only make modifications to the README.txt file, and make sure the `gulp readme` command has been run before committing README changes.  See the [contributing guidelines](https://github.com/UCF-CECS-IT/UCF-WP-Carousel-Plugin/blob/master/CONTRIBUTING.md) for more information.
 
 
-== Contributing ==
+## Contributing ##
 
 Want to submit a bug report or feature request?  Check out our [contributing guidelines](https://github.com/UCF-CECS-IT/UCF-WP-Carousel-Plugin/blob/master/CONTRIBUTING.md) for more information.  We'd love to hear from you!
