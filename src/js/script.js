@@ -9,6 +9,8 @@
 //
 // Project-specific scripts
 //
+// =require carousel.js
+
 
 // Require your plugin's custom script files here
 // see https://www.npmjs.com/package/gulp-include#include-directives

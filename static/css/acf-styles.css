@@ -1,0 +1,35 @@
+/* nth field background */
+/* .acf-input-table.row-layout .acf-row:nth-of-type(2n) .acf-table {
+  background:#fafafa;
+} */
+/* left field label td */
+/* .acf-input-table.row-layout .acf-row:nth-of-type(2n) td.acf-label {
+  background: black;
+  border-color:#ddd;
+} */
+/* field td */
+/* .acf-input-table.row-layout .acf-row:nth-of-type(2n) td.acf-input {
+  border-color:#ddd;
+} */
+/* left and right side - order and delete td */
+/* .acf-input-table.row-layout .acf-row:nth-of-type(2n) td.order,
+.acf-input-table.row-layout .acf-row:nth-of-type(2n) td.remove {
+  background:#e3e3e3;
+} */
+/* space between row - only border works */
+.acf-table > .ui-sortable > .acf-row > td {
+  border:0;
+  border-bottom:3px solid black;
+}
+
+/* acf edit page */
+/* .acf-field-object-tab {
+  background: #fafafa;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #F0F0F0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#F0F0F0));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#F0F0F0 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#F0F0F0 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#F0F0F0 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#F0F0F0 100%);
+  border-bottom : 2px solid #F0F0F0;
+} */
